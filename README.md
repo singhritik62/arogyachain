@@ -1,4 +1,4 @@
-🏥 ArogyaChain — Blockchain-Based Healthcare Records System
+**🏥 ArogyaChain — Blockchain-Based Healthcare Records System**
 
 👨‍💻 Team Members
 	•	Ritik Singh
@@ -70,30 +70,53 @@ $ docker-compose -v      # Docker Compose version v2.15.1
 $ git --version          # git version 2.39.2
 
 📦 Steps
-	1.	Clone Repository
 
-git clone 
-cd arogyachain
+📦 Steps to Run the Project
 
-	2.	Add .env File
-Place the required .env in the backend directory as specified.
-	3.	Start Hyperledger Fabric Network
+1. **Clone the Repository**
 
-./fablo up fablo-config.json
-cd backend/config
-./generate-ccp
+	```bash
+	git clone https://github.com/your-username/arogyachain.git
+	cd arogyachain
+	```
 
-	4.	Start Backend
+2. **Add `.env` File**
 
-cd backend
-npm install
-node app.js
+	Place the required `.env` file in the `backend` directory as specified in the documentation.
 
-	5.	Start Frontend
+3. **Start Hyperledger Fabric Network**
 
-cd client
-npm install
-npm start
+	```bash
+	./fablo up fablo-config.json
+	cd backend/config
+	./generate-ccp
+	```
+
+4. **Start the Backend**
+
+	```bash
+	cd backend
+	npm install
+	node app.js
+	```
+
+5. **Start the Frontend**
+
+	```bash
+	cd client
+	npm install
+	npm start
+	```
+
+6. **Access the Application**
+
+	Open your browser and navigate to:
+
+	```
+	http://localhost:3000
+	```
+
+
 
 
 ⸻
