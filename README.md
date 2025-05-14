@@ -76,7 +76,7 @@ $ git --version          # git version 2.39.2
 1. **Clone the Repository**
 
 	```bash
-	git clone https://github.com/your-username/arogyachain.git
+	git clone https://github.com/singhritik62/arogyachain
 	cd arogyachain
 	```
 
